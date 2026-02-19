@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-license-manager-linux-subscriptions`](https://www.npmjs.com/package/@aws-sdk/client-license-manager-linux-subscriptions/v/3.462.0).
+[`@aws-sdk/client-license-manager-linux-subscriptions`](https://www.npmjs.com/package/@aws-sdk/client-license-manager-linux-subscriptions/v/3.465.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-license-manager-linux-subscriptions@3.462.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-license-manager-linux-subscriptions@3.465.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-hwrxCr8csSmT9XlNIPRtevZrbutVWqCMA3XZ2WQB5qATxXrQQW6Qn32XCrGLiScX
+sha384-63ptTWg8kE52tRpFcp9THsfTav3p6g5SfpEgkqnE//ElGt3ZFgZy06McROwgH02l
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-license-manager-linux-subscriptions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-license-manager-linux-subscriptions@3.462.0/index.min.mjs"
+            "@aws-sdk/client-license-manager-linux-subscriptions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-license-manager-linux-subscriptions@3.465.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-license-manager-linux-subscriptions@3.462.0/index.min.mjs": "sha384-hwrxCr8csSmT9XlNIPRtevZrbutVWqCMA3XZ2WQB5qATxXrQQW6Qn32XCrGLiScX"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-license-manager-linux-subscriptions@3.465.0/index.min.mjs": "sha384-63ptTWg8kE52tRpFcp9THsfTav3p6g5SfpEgkqnE//ElGt3ZFgZy06McROwgH02l"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-license-manager-linux-subscriptions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-license-manager-linux-subscriptions@3.462.0/index.min.mjs"
+                        "@aws-sdk/client-license-manager-linux-subscriptions": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-license-manager-linux-subscriptions@3.465.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-license-manager-linux-subscriptions@3.462.0/index.min.mjs": "sha384-hwrxCr8csSmT9XlNIPRtevZrbutVWqCMA3XZ2WQB5qATxXrQQW6Qn32XCrGLiScX"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-license-manager-linux-subscriptions@3.465.0/index.min.mjs": "sha384-63ptTWg8kE52tRpFcp9THsfTav3p6g5SfpEgkqnE//ElGt3ZFgZy06McROwgH02l"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.462.0`)
+* Always pin to a specific version (`@3.465.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-license-manager-linux-subscriptions/blob/refs/tags/3.462.0/LICENSE
+https://github.com/cloud-sdk-builds/client-license-manager-linux-subscriptions/blob/refs/tags/3.465.0/LICENSE
 ```
 
 ---
